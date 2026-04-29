@@ -106,3 +106,16 @@ footer {
   color: #bbb;
   letter-spacing: 0.05em;
 }
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 24px 30px;
+  }
+
+  .header-right {
+    text-align: left;
+  }
+}
