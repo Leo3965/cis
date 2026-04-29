@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (caso use ferramentas como live-server, sass, etc.)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Build / dist
+dist/
+build/
+
+# Env
+.env
+.env.local
