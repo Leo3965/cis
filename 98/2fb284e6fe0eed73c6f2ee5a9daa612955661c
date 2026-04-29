@@ -1,0 +1,23 @@
+css/style.css
+  d8684f79faa1ba67 66-71,75-77,79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "982fb284e6fe0eed73c6f2ee5a9daa612955661c",
+  "prompts": {
+    "d8684f79faa1ba67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3f794175-903a-405f-8825-5bb52ffa8426",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "leonarolivei_meli",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 5,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    }
+  }
+}
