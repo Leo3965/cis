@@ -1,0 +1,14 @@
+index.html
+  h_79303a77702091 17-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "68d00fe589a2fba1d25f659de2f0cf4cb0cb77bf",
+  "prompts": {},
+  "humans": {
+    "h_79303a77702091": {
+      "author": "leonarolivei_meli"
+    }
+  }
+}
