@@ -13,21 +13,35 @@ body {
 /* Header */
 header {
   padding: 60px 40px 40px;
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-header h1 {
+.header-left h1 {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-header .subtitle {
+.header-left .subtitle {
   font-size: 0.9rem;
   color: #888;
   margin-top: 6px;
   letter-spacing: 0.04em;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.header-right .students {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: #444;
+  line-height: 1.8;
+  text-transform: uppercase;
 }
 
 /* Gallery */
