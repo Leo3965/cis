@@ -1,0 +1,34 @@
+index.html
+  d8684f79faa1ba67 1-20,27-28,30-35,37-41,48,55-56,58-70
+  h_79303a77702091 21-26,29,36,42-47,49-54,57
+css/style.css
+  h_79303a77702091 72
+  d8684f79faa1ba67 1-71,73-92
+js/script.js
+  d8684f79faa1ba67 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "d6a5a09d50fe2974754fe774255883414e45a5e7",
+  "prompts": {
+    "d8684f79faa1ba67": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3f794175-903a-405f-8825-5bb52ffa8426",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "leonarolivei_meli",
+      "messages": [],
+      "total_additions": 170,
+      "total_deletions": 11,
+      "accepted_lines": 153,
+      "overriden_lines": 4
+    }
+  },
+  "humans": {
+    "h_79303a77702091": {
+      "author": "leonarolivei_meli"
+    }
+  }
+}
