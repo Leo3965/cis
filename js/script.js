@@ -1,13 +1,22 @@
-// Animação de entrada dos cards ao rolar a página
 const cards = document.querySelectorAll('.card');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
+      // Dim all cards, highlight the one in view
+      cards.forEach((card) => card.classList.add('dimmed'));
+      entry.target.classList.remove('dimmed');
       entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.15 });
+}, { threshold: 0.5 });
 
-cards.forEach((card) => observer.observe(card));
+// Initial state: first card visible, rest dimmed
+cards.forEach((card, index) => {
+  if (index === 0) {
+    card.classList.add('visible');
+  } else {
+    card.classList.add('dimmed');
+  }
+  observer.observe(card);
+});

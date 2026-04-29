@@ -52,7 +52,8 @@ main {
 .gallery {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 80px;
+  padding-bottom: 80px;
 }
 
 /* Card */
@@ -66,6 +67,11 @@ main {
 
 .card.visible {
   opacity: 1;
+  transform: translateY(0);
+}
+
+.card.dimmed {
+  opacity: 0.15;
   transform: translateY(0);
 }
 
